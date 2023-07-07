@@ -1,0 +1,24 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+src/A1
+src/A2
+src/C1
+src/C2
+src/Homework_java
+out
+.idea
+src/leetcode
+src/javaScript_course
+src/Oop_homework
+src/quizzical
+src/testers
+src/IString.java
+src/Main.java
+src/Main2.java
+src/myString.java
