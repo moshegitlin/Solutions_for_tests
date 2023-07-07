@@ -7,16 +7,16 @@ public class Main2 {
                 {5,6}
         };
         int max =0;
-        for (int i = 0; i <mat.length ; i++) {
-            if (max < mat[i].length)
-                max =mat[i].length;
+        for (int[] value : mat) {
+            if (max < value.length)
+                max = value.length;
         }
         for (int i = 0; i <max; i++) {
-            for (int j = 0; j < mat.length ; j++) {
-                if (i > mat[j].length-1) {
+            for (int[] ints : mat) {
+                if (i > ints.length - 1) {
                     continue;
                 }
-                System.out.println(mat[j][i]);
+                System.out.println(ints[i]);
             }
         }
     }

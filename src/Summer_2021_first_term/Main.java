@@ -50,6 +50,7 @@ public class Main {
                 System.out.println(m1);
                 System.out.println( m1.reply("ttttttdff"));
                 Mailbox mail = new Mailbox(3);
+
                 mail.addMail(m1);
                 mail.addMail(m2);
                 mail.addMail(m3);

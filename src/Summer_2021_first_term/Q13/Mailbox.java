@@ -14,6 +14,7 @@ public class Mailbox {
         if (noOfMes >= inbox.length) return;
        inbox[noOfMes++] = m;
     }
+
     public int howManyBetweenTimes(Time first, Time second){
         if (noOfMes==0) return -1;
         int sum =-1;
@@ -41,4 +42,6 @@ public class Mailbox {
         }
         return popular;
     }
+
+
 }
